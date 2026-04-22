@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+    <route url="/V1/experienceis/brands/:brandId" method="GET">
+        <service class="Experienceis\Brand\Api\BrandRepositoryInterface" method="getById"/>
+        <resources>
+            <resource ref="Experienceis_Brand::brand_manage"/>
+        </resources>
+    </route>
+
+   
+    <route url="/V1/experienceis/brands" method="GET">
+        <service class="Experienceis\Brand\Api\BrandRepositoryInterface" method="getList"/>
+        <resources>
+            <resource ref="Experienceis_Brand::brand_manage"/>
+        </resources>
+    </route>
+</routes>

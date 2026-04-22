@@ -1,0 +1,10 @@
+type Query {
+    experienceisBrands: [Brand] @resolver(class: "Experienceis\\Brand\\Model\\Resolver\\Brands") @doc(description: "Get list of brands")
+}
+
+type Brand {
+    brand_id: Int @doc(description: "Brand ID")
+    name: String @doc(description: "Brand Name")
+    description: String @doc(description: "Brand Description")
+    logo: String @doc(description: "Logo filename")
+}

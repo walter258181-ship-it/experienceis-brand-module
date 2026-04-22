@@ -1,0 +1,86 @@
+<?php
+/** @var \Magento\Framework\View\Element\Template $block */
+/** @var \Experienceis\Brand\ViewModel\BrandInfo $viewModel */
+
+$viewModel = $block->getData('view_model');
+
+if (!$viewModel || !$viewModel->isEnabled()) {
+    return;
+}
+
+$product = $viewModel->getProduct();
+if (!$product) {
+    return;
+}
+
+$brand = $viewModel->getBrandData($product);
+if (!$brand) {
+    return;
+}
+?>
+
+<style>
+    .brand-info-wrapper {
+        display: flex;
+        align-items: flex-start;
+        margin: 20px 0;
+        padding: 15px;
+        background-color: #ffffff;
+        border: 1px solid #eeeeee;
+        border-radius: 4px;
+    }
+    .brand-info-logo-container {
+        margin-right: 20px;
+        flex-shrink: 0;
+    }
+    .brand-info-logo-container img {
+        max-width: 100px;
+        height: auto;
+        display: block;
+    }
+    .brand-info-details {
+        flex-grow: 1;
+    }
+    .brand-info-label {
+        display: block;
+        font-size: 10px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #999;
+        margin-bottom: 4px;
+        letter-spacing: 0.5px;
+    }
+    .brand-info-name {
+        display: block;
+        font-size: 18px;
+        color: #333;
+        margin-bottom: 6px;
+    }
+    .brand-info-description {
+        font-size: 13px;
+        line-height: 1.4;
+        color: #666;
+        margin: 0;
+    }
+</style>
+
+<div class="brand-info-wrapper">
+    <?php if ($brand->getLogo()): ?>
+        <div class="brand-info-logo-container">
+            <img src="<?= $block->escapeUrl($viewModel->getLogoUrl($brand->getLogo())) ?>" 
+                 alt="<?= $block->escapeHtmlAttr($brand->getName()) ?>"
+                 title="<?= $block->escapeHtmlAttr($brand->getName()) ?>"/>
+        </div>
+    <?php endif; ?>
+    
+    <div class="brand-info-details">
+        <span class="brand-info-label"><?= $block->escapeHtml(__('Brand')) ?></span>
+        <strong class="brand-info-name"><?= $block->escapeHtml($brand->getName()) ?></strong>
+        
+        <?php if ($brand->getDescription()): ?>
+            <p class="brand-info-description">
+                <?= $block->escapeHtml($brand->getDescription()) ?>
+            </p>
+        <?php endif; ?>
+    </div>
+</div>

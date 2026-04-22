@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://w3.org" 
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Experienceis_Brand">
+        <sequence>
+            <!-- We depend on Catalog because we will add a brand attribute to products -->
+            <module name="Magento_Catalog"/>
+        </sequence>
+    </module>
+</config>

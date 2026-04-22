@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://w3.org" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <!-- FIRST LEVEL MENU: ExperienceIs Brands -->
+        <add id="Experienceis_Brand::brand_root"
+             title="Brands"
+             module="Experienceis_Brand"
+             sortOrder="10"
+             resource="Experienceis_Brand::brand_manage"/>
+
+        <!-- SUBMENU ITEM: Manage Brands -->
+        <add id="Experienceis_Brand::brand_manage"
+             title="Manage Brands"
+             module="Experienceis_Brand"
+             sortOrder="10"
+             parent="Experienceis_Brand::brand_root"
+             action="experienceis_brand/brand/index"
+             resource="Experienceis_Brand::brand_manage"/>
+    </menu>
+</config>
