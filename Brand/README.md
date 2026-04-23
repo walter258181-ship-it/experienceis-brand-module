@@ -22,7 +22,6 @@ Independencia: Tú decides cuándo se ve la información en el frontend de las m
 
 Rapidez: Ideal para realizar pruebas visuales o cambios rápidos en campañas de marketing.
 
-
 # Nombre del Módulo Experienceis_Brand
 Se ha creado un archivo pdf que esta dentro la carpeta docs que explioca con imagenes el resultado que se obtuvo y se explica  la parte tecnica
 Módulo personalizado para Magento 2 que añade la entidad **Brand** (Marcas).
