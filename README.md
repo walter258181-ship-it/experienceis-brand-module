@@ -1,6 +1,6 @@
 ## Configuración Inicial
 
-Por defecto, el módulo viene configurado para activarse automáticamente la funcionalidad de la vista de masrca en el frontend. Una de las grandes ventajas de este módulo es que no necesitas conocimientos técnicos para gestionarlo, ya que puedes controlar su funcionamiento directamente desde el panel de administración.
+Por defecto, el módulo viene configurado para activarse automáticamente la funcionalidad de la vista de marca en el frontend. Una de las grandes ventajas de este módulo es que no necesitas conocimientos técnicos para gestionarlo, ya que puedes controlar su funcionamiento directamente desde el panel de administración.
 
 Si tras la instalación la funcionalidad de mostrar las marcas en el frontend no aparece , o si deseas desactivar temporalmente, sigue estos pasos:
 
@@ -10,7 +10,7 @@ En la pestaña lateral izquierda, busca el apartado Experienceis > Brand Configu
 
 En la sección General Settings, verás la opción Enable Brand Display in Frontend.
 
-¿Por qué es útil? Esto te permite habilitar o deshabilitar la funcionalidad de la vista de masrca en  el frontend en segundos sin tocar código ni entrar en el servidor.
+¿Por qué es útil? Esto te permite habilitar o deshabilitar la funcionalidad de la vista de marca en  el frontend en segundos sin tocar código ni entrar en el servidor.
 
 Una vez seleccionado Yes, pulsa el botón Save Config
 
