@@ -1,7 +1,31 @@
+## Configuración Inicial
+
+Por defecto, el módulo viene configurado para activarse automáticamente. Una de las grandes ventajas de este módulo es que no necesitas conocimientos técnicos para gestionarlo, ya que puedes controlar su funcionamiento directamente desde el panel de administración.
+
+Si tras la instalación la funcionalidad no aparece en el frontend, o si deseas desactivar temporalmente, sigue estos pasos:
+
+Ve a Tiendas (Stores) > Settings > Configuración (Configuration).
+
+En la pestaña lateral izquierda, busca el apartado Experienceis > Brand Configuration.
+
+En la sección General Settings, verás la opción Enable Brand Display in Frontend.
+
+¿Por qué es útil? Esto te permite habilitar o deshabilitar el módulo en segundos sin tocar código ni entrar en el servidor.
+
+Una vez seleccionado Yes, pulsa el botón Save Config
+
+Para que los cambios se reflejen, limpia la caché: bin/magento cache:clean.
+
+¿Qué ganas con esto?
+
+Independencia: Tú decides cuándo se ve la información de marca 
+
+Rapidez: Ideal para realizar pruebas visuales o cambios rápidos en campañas de marketing.
+
+
+
 # Nombre del Módulo Experienceis_Brand
-
 Se ha creado un archivo pdf que esta dentro la carpeta docs que explioca con imagenes el resultado que se obtuvo y se explica  la parte tecnica
-
 Módulo personalizado para Magento 2 que añade la entidad **Brand** (Marcas).
 
 ## Funcionalidades
