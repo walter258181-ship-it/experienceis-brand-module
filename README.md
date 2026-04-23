@@ -8,9 +8,9 @@ En la pestaña lateral izquierda, busca el apartado Experienceis > Brand Configu
 
 En la sección General Settings, verás la opción Enable Brand Display in Frontend.
 
-¿Por qué es útil? Esto te permite habilitar o deshabilitar la funcionalidad de la vista de marca en  el frontend en segundos sin tocar código ni entrar en el servidor.
-
 Una vez seleccionado Yes, pulsa el botón Save Config
+
+¿Por qué es útil? Esto te permite habilitar o deshabilitar la funcionalidad de la vista de marca en  el frontend en segundos sin tocar código ni entrar en el servidor.
 
 Para que los cambios se reflejen, limpia la caché: bin/magento cache:clean.
 
