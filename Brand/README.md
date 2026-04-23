@@ -53,4 +53,4 @@ sudo chown -R www-data:root .
 sudo chmod 777 -R .
 
 ## Manual
-* [📄 Manual Técnico del Módulo (PDF)](./Brand/docs/Experienceis_Brand_Technical_Review.pdf)
+[Descargar Manual Técnico (PDF)](./docs/Experienceis_Brand_Technical_Review.pdf)
