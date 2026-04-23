@@ -38,7 +38,7 @@ Módulo personalizado para Magento 2 que añade la entidad **Brand** (Marcas).
 
 ## Instalación
 1. Copiar contenido en `app/code/Experienceis/Brand`.
-2. Ejecutar  o crear un .sh 
+2. Ejecutar o crear un .sh 
 
 #!/bin/bash
 sudo rm -rf generated
@@ -53,4 +53,4 @@ sudo chown -R www-data:root .
 sudo chmod 777 -R .
 
 ## Manual
-[Descargar Manual Técnico (PDF)](./docs/manual_tecnico.pdf)
+* [📄 Manual Técnico del Módulo (PDF)](./Brand/docs/Experienceis_Brand_Technical_Review.pdf)
