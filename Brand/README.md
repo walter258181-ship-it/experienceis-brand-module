@@ -10,15 +10,15 @@ En la sección General Settings, verás la opción Enable Brand Display in Front
 
 Una vez seleccionado Yes, pulsa el botón Save Config
 
-¿Por qué es útil? Esto te permite habilitar o deshabilitar la funcionalidad de la vista de marca en  el frontend en segundos sin tocar código ni entrar en el servidor.
-
 Para que los cambios se reflejen, limpia la caché: bin/magento cache:clean.
 
-Una de las grandes ventajas de este módulo es que no necesitas conocimientos técnicos para gestionarlo, ya que puedes controlar su funcionamiento directamente desde el panel de administración.
+¿Por qué es útil? Esto te permite habilitar o deshabilitar la funcionalidad de la vista de marca en  el frontend en segundos sin tocar código ni entrar en el servidor.
+
+Una de las grandes ventajas de este módulo es que no necesitas conocimientos técnicos para gestionarlo la visualizacion en el frontend de las marcas, ya que puedes controlar su funcionamiento directamente desde el panel de administración.
 
 ¿Qué ganas con esto?
 
-Independencia: Tú decides cuándo se ve la información de marca 
+Independencia: Tú decides cuándo se ve la información en el frontend de las marcas 
 
 Rapidez: Ideal para realizar pruebas visuales o cambios rápidos en campañas de marketing.
 
