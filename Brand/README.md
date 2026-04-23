@@ -10,7 +10,7 @@ En la sección General Settings, verás la opción Enable Brand Display in Front
 
 Una vez seleccionado Yes, pulsa el botón Save Config
 
-Para que los cambios se reflejen, limpia la caché: bin/magento cache:clean.
+Para que los cambios se reflejen, limpia la caché: bin/magento cache:clean
 
 ¿Por qué es útil? Esto te permite habilitar o deshabilitar la funcionalidad de la vista de marca en  el frontend en segundos sin tocar código ni entrar en el servidor.
 
