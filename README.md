@@ -1,7 +1,5 @@
 ## Configuración Inicial
 
-Por defecto, el módulo viene configurado para activarse automáticamente la funcionalidad de la vista de marca en el frontend. Una de las grandes ventajas de este módulo es que no necesitas conocimientos técnicos para gestionarlo, ya que puedes controlar su funcionamiento directamente desde el panel de administración.
-
 Si tras la instalación la funcionalidad de mostrar las marcas en el frontend no aparece , o si deseas desactivar temporalmente, sigue estos pasos:
 
 Ve a Tiendas (Stores) > Settings > Configuración (Configuration).
@@ -15,6 +13,8 @@ En la sección General Settings, verás la opción Enable Brand Display in Front
 Una vez seleccionado Yes, pulsa el botón Save Config
 
 Para que los cambios se reflejen, limpia la caché: bin/magento cache:clean.
+
+Una de las grandes ventajas de este módulo es que no necesitas conocimientos técnicos para gestionarlo, ya que puedes controlar su funcionamiento directamente desde el panel de administración.
 
 ¿Qué ganas con esto?
 
