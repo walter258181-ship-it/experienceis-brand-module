@@ -1,6 +1,6 @@
 ## Configuración Inicial
 
-Si tras la instalación la funcionalidad de mostrar las marcas en el frontend no aparece , o si deseas desactivar temporalmente, sigue estos pasos:
+Si tras la instalación del módulo la funcionalidad de mostrar las marcas en el frontend no aparece , o si deseas desactivar temporalmente, sigue estos pasos:
 
 Ve a Tiendas (Stores) > Settings > Configuración (Configuration).
 
